@@ -1,4 +1,4 @@
-package chapter18_JavaIO.chapter18_1.chapter18_1_2;
+package chapter18_JavaIO.chapter18_1_File.chapter18_1_2;
 
 import chapter18_JavaIO.util.PPrint;
 
