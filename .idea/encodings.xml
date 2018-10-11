@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="GBK">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/chapter18_JavaIO/chapter18_6_IO_typicalExample/BasicFileOutput.out" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/chapter18_JavaIO/chapter18_6_IO_typicalExample/Data.text" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/chapter18_JavaIO/chapter18_6_IO_typicalExample/FormattedMemoryInput.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/chapter18_JavaIO/chapter18_6_IO_typicalExample/PTS新做功能.txt" charset="UTF-8" />
-    <file url="PROJECT" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

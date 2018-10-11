@@ -1,0 +1,29 @@
+1:package chapter18_JavaIO.chapter18_6_IO_typicalExample;
+2:
+3:import java.io.*;
+4:
+5:/**
+6: * 18.6.4 基本的文件输出
+7: */
+8:public class BasicFileOutput {
+9:    static String filename = "BasicFileOutput.out";
+10:
+11:    public static void main(String[] args) throws Exception{
+12:        BufferedReader in = new BufferedReader(new StringReader(BufferedInputFile.read("BasicFileOutput.java")));
+13:        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(filename)));
+14:        /**
+15:         * 文本文件输出的快捷方式
+16:         */
+17:        PrintWriter outShortCut = new PrintWriter(filename);
+18:        int lineCount = 1;
+19:        String s;
+20:        while ((s = in.readLine()) != null) {
+21://            out.println(lineCount++ + ":" + s );
+22:            outShortCut.println(lineCount++ + ":" + s );
+23:        }
+24:        outShortCut.close();
+25:        out.close();
+26:        in.close();
+27:        System.out.println(BufferedInputFile.read(filename));
+28:    }
+29:}

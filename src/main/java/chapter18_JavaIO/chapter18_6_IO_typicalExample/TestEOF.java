@@ -4,6 +4,9 @@ import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 import java.io.IOException;
 
+/**
+ * 18.3.3 格式化的内输出
+ */
 public class TestEOF {
     public static void main(String[] args){
         try {
