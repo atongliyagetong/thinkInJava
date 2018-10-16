@@ -14,7 +14,7 @@ import java.nio.channels.FileChannel;
  * 旧IO类库中有三个类被修改了：FileInputStream、FileOutputStream、RandomAccessFile，用以产生
  * byteBuffer.allocate(int size)  分配大小
  * byteBuffer.flip() FileChannel调用了read()或ByteBuffer调用put()后，使用flip,为channel-write或ByteBuffer.get()做准备
- * byteBuffer.clear()
+ * byteBuffer.clear() 在FileChannel调用下一个read()前或ByteBuffer调用下一个put()前使用
  * byteBuffer.get()
  */
 public class GetChannel {
