@@ -8,7 +8,7 @@ import java.nio.ByteBuffer;
 public class GetData {
     public static final int BSIZE = 1024;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         ByteBuffer buffer = ByteBuffer.allocate(BSIZE);
         int i = 0;
         while (i++ < buffer.limit()) {
