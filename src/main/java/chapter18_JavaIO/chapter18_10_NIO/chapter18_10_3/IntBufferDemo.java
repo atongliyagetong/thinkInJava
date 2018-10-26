@@ -1,4 +1,4 @@
-package chapter18_JavaIO.chapter18_10_NIO;
+package chapter18_JavaIO.chapter18_10_NIO.chapter18_10_3;
 
 import java.nio.ByteBuffer;
 import java.nio.IntBuffer;

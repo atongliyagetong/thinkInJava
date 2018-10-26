@@ -1,4 +1,4 @@
-package chapter18_JavaIO.chapter18_10_NIO;
+package chapter18_JavaIO.chapter18_10_NIO.chapter18_10_1;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
